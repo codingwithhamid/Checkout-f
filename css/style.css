@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background: #34495e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: white;
+  width: 800px;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+.billing{
+    flex-basis: 50%;
+}
+form{
+   padding:  1rem;
+}
+.input{
+    width: 100%;
+
+  padding: 10px;
+  margin: 9px 0;
+ }
+ .state{
+    display: flex;
+    margin-top: 15px;
+
+ }
+.state label select{
+    padding: 10px;
+}
+.state label input{
+    padding: 10px;
+    margin-left: 8px;
+}
+.year{
+    margin-top: 10px;
+}
+.year label select{
+    padding: 10px;
+}
+
+.btn label input{
+   text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #33495e;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 0 10px #33495e ;
+}
+@media  screen and (max-width: 500px) {
+    .container{
+        flex-direction: column;
+    }
+    body{
+        overflow: hidden;
+    }
+}
