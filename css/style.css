@@ -66,8 +66,15 @@ form{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.btn:focus{
+    outline: none;
+}
 .btn:hover{
-    box-shadow: 0 0 10px #33495e ;
+transform: scale(0.98);
+}
+.btn:active{
+    transform: scale(0.98);
 }
 @media  screen and (max-width: 500px) {
     .container{
